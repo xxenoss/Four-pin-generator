@@ -7,9 +7,9 @@
 }
 
 .number-button{
-    font-size: 50px;
-    width:100px;
-    height: 100px;
+    font-size: 25px;
+    width:50px;
+    height: 50px;
     background-color: rgb(134, 29, 29);
     &:hover{
         background-color: rgb(105, 91, 197) !important;
