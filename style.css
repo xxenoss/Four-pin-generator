@@ -1,0 +1,77 @@
+.row{
+    border-radius: 10px;
+}
+.left-side, .right-side{
+    column-gap: 10px;
+    background-color: rgb(9, 7, 24);
+}
+
+.number-button{
+    font-size: 50px;
+    width:100px;
+    height: 100px;
+    background-color: rgb(134, 29, 29);
+    &:hover{
+        background-color: rgb(105, 91, 197) !important;
+    }
+}
+#pin-input-show , #gen-pin-show{
+    padding: 20px;
+    width:auto;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: gray;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#auto-gen-button{
+    background-color: rgb(73, 69, 78);
+    margin: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+    border-radius: 10%;
+    background-color: blue;
+    &:hover{
+        background-color: rgb(105, 91, 197) !important;
+    }
+}
+
+#submit-button{
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+.match{
+    width: max-content ;
+    background-color: rgb(9, 7, 24);
+    padding: 10px;
+    font-size: 30px;
+}
+.not-match{
+    display: none;
+}
+.matched{
+    display: none;
+}
+.game-over {
+    background-color: #ff4c4c; /* Red background to indicate game over */
+    color: white; /* White text color */
+    animation: shake 0.5s; /* Shake animation */
+    animation-iteration-count: 1; /* Run animation once */
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
